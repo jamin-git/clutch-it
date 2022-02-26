@@ -1,5 +1,20 @@
+@font-face {
+  font-family: 'Regular';
+  src: url(./Fonts/Rajdhani-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(./Fonts/Rajdhani-SemiBold.ttf) format('truetype');
+}
+
 .App {
   text-align: center;
+  font-family: 'Rajdhani', 'Bold';
+  letter-spacing: 0.1em;
+  color: #FF2E86;
+  text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+  background: #2C193F;
 }
 
 .App-logo {
@@ -10,29 +25,5 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }

@@ -1,0 +1,27 @@
+.header {
+    background: rgba(115, 89, 141, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FF2E86;
+    text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+}
+
+h2 {
+    font-size: 30px;
+    color: #FF2E86;
+    text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+}
+
+.menu {
+    left: 0px;
+}
