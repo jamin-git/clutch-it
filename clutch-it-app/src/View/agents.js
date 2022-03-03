@@ -1,8 +1,8 @@
 import React from 'react'
-import controller from './controller.png'
-import sentinel from './sentinel.png'
-import initiator from './initiator.png'
-import duelist from './duelist.png'
+import controller from '../Resources/controller.png'
+import sentinel from '../Resources/sentinel.png'
+import initiator from '../Resources/initiator.png'
+import duelist from '../Resources/duelist.png'
 
 function agents() {
   return (
