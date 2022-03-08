@@ -1,25 +1,54 @@
-import React from 'react';
-import Navbar from './Component/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import NavbarComponent from "./Components/NavbarComponent";
+import "./App.css";
+import MapsComponent from "./Components/MapsComponent";
+import { Container, Row, Col } from "react-bootstrap";
 
+
+// Page Components
 import Home from "./View/home";
 import About from "./View/about";
+import Contact from "./View/contact";
+import Agents from "./View/agents";
+import Maps from "./View/maps";
+import Highlights from "./View/highlights";
 
-import './App.css';
+// Routing Components
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
+    <div>
+    {/* Initializing the Navbar & React Router Stuff */}
       <Router>
-      <Navbar />
+      <NavbarComponent />
         <Routes>
           <Route path='/' element={<Home />}></Route>
-          {/* Example of how to create a route to a page for the navbar */}
           <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/agents' element={<Agents />}></Route>
+          <Route path='/maps' element={<Maps />}></Route>
+          <Route path='/highlights' element={<Highlights />}></Route>
         </Routes>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
+
+
+{/* <div
+className="vh-100"
+style={{ backgroundColor: "#2c193f", color: "white" }}
+>
+<NavbarComponent />
+<Container className="container">
+  <Row className="row" style={{ marginTop: "5%" }}>
+    <Col className="col-12" style={{ marginLeft: "0%" }}>
+      <MapsComponent />
+    </Col>
+  </Row>
+</Container>
+</div> */}
