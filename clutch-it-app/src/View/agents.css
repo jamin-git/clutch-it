@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Regular';
+    src: url(../Fonts/Rajdhani-Regular.ttf) format('truetype');
+}
+  
+@font-face {
+    font-family: 'Bold';
+    src: url(../Fonts/Rajdhani-SemiBold.ttf) format('truetype');
+}
+
+
+.agents {
+    background-color: #2C193F;
+    font-family: 'Rajdhani', 'Bold';
+}
+
+.title1 {
+    font-size: 96px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 10px #FFF9C8;
+}
+
+.title2 {
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 10px #FFF9C8;
+}
