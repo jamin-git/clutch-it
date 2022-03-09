@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import {LinkContainer} from 'react-router-bootstrap';
-
+import './Navbar.css'
 
 const NavbarComponent = () => {
   return (
@@ -12,27 +12,27 @@ const NavbarComponent = () => {
           <Nav className="me-auto">
           
             <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link className="nav-link">Home</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/about">
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link className="nav-link">About</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
+              <Nav.Link className="nav-link">Contact</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/agents">
-              <Nav.Link>Agents</Nav.Link>
+              <Nav.Link className="nav-link">Agents</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/maps">
-              <Nav.Link>Maps</Nav.Link>
+              <Nav.Link className="nav-link">Maps</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/highlights">
-              <Nav.Link>Highlights</Nav.Link>
+              <Nav.Link className="nav-link">Highlights</Nav.Link>
             </LinkContainer>
 
           </Nav>

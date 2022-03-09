@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@font-face {
+  font-family: 'Regular';
+  src: url(./Fonts/Rajdhani-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(./Fonts/Rajdhani-SemiBold.ttf) format('truetype');
+}
 
 .App {
   text-align: center;
+  font-family: 'Rajdhani', 'Bold';
+  letter-spacing: 0.1em;
+  color: #FF2E86;
+  text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+  background: #2C193F;
 }
 
 .App-logo {
@@ -43,8 +56,5 @@ body {
   margin-bottom: 20px;
 } */
 
-.agents {
-  background-color: #2C193F;
-  font-family: 'Rajdhani', sans-serif;
-}
+
 
