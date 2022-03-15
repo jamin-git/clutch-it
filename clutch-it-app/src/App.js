@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarComponent from "./Components/NavbarComponent";
+
 import "./App.css";
 import MapsComponent from "./Components/MapsComponent";
 import { Container, Row, Col } from "react-bootstrap";
@@ -12,6 +13,7 @@ import Contact from "./View/contact";
 import Agents from "./View/agents";
 import Maps from "./View/maps";
 import Highlights from "./View/highlights";
+import Duelist from "./View/duelist";
 
 // Routing Components
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -19,7 +21,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
+    <div class='App'>
+    <style>{'body { background-color: #2C193F; }'}</style>
     {/* Initializing the Navbar & React Router Stuff */}
       <Router>
       <NavbarComponent />
@@ -30,6 +33,7 @@ const App = () => {
           <Route path='/agents' element={<Agents />}></Route>
           <Route path='/maps' element={<Maps />}></Route>
           <Route path='/highlights' element={<Highlights />}></Route>
+          <Route path='/duelist' element={<Duelist />}></Route>
         </Routes>
       </Router>
     </div>

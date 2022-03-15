@@ -8,6 +8,11 @@
     src: url(../Fonts/Rajdhani-SemiBold.ttf) format('truetype');
   }
 
+.navbar-style {
+  background: rgba(115, 89, 141, 0.39);
+  color: #FFF9C8;
+}
+
 .nav-link {
     text-align: center;
     font-family: 'Rajdhani', 'Bold';
