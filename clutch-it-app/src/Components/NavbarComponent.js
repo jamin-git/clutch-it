@@ -6,9 +6,8 @@ import './Navbar.css'
 const NavbarComponent = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar variant="dark">
         <Container>
-          <Navbar.Brand>Navbar</Navbar.Brand>
           <Nav className="me-auto">
           
             <LinkContainer to="/">
