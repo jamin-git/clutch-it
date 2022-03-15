@@ -26,7 +26,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -44,7 +44,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             3 Sites
           </p>
         </div>
@@ -56,11 +56,11 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
@@ -76,11 +76,11 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
@@ -106,7 +106,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -124,7 +124,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -136,16 +136,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={ascentMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -156,16 +156,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={ascentMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -177,16 +177,16 @@ const maps = () => {
         </Col>
       </Row>
       {/* Next Map ---------------------------------------------------*/}
-      {/* Map-3 : IceBox */}
+      {/* Map-3 : Icebox */}
       {/* Title Row */}
       <Row style={{ maxWidth: "50vh" }}>
         <p className="title1" style={{ marginTop: "50%" }}>
-          IceBox
+          Icebox
         </p>
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -204,7 +204,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -216,16 +216,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={iceboxMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -236,16 +236,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={iceboxMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -266,7 +266,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -284,7 +284,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -296,16 +296,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={bindMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -316,16 +316,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={bindMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -346,7 +346,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -364,7 +364,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -376,16 +376,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={breezeMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -396,16 +396,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={breezeMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -426,7 +426,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -444,7 +444,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -456,16 +456,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={splitMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -476,16 +476,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={splitMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -506,7 +506,7 @@ const maps = () => {
       </Row>{" "}
       {/* Map Image Row */}
       <Row className="justify-content-center">
-        <div style={{ paddingLeft: "15%" }}>
+        <div>
           <img
             className="square"
             id="maps-frame"
@@ -524,7 +524,7 @@ const maps = () => {
       {/* Info Box Row */}
       <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
         <div className="square" id="info-box">
-          <p style={{ color: "white", margin: "20%", fontSize: "1em" }}>
+          <p style={{ color: "white", margin: "20%", fontSize: "0.8em" }}>
             2 Sites
           </p>
         </div>
@@ -536,16 +536,16 @@ const maps = () => {
       </Row>{" "}
       {/* Videos */}
       <Row>
-        <Col style={{ marginLeft: "9%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "22%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "37%" }}>
             TRENDING
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={fractureMap}
-              alt="ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",
@@ -556,16 +556,16 @@ const maps = () => {
           </div>
         </Col>
 
-        <Col style={{ marginLeft: "16.4%" }}>
-          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "21%" }}>
+        <Col>
+          <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ paddingLeft: "15%", marginTop: "2%" }}>
+          <div style={{ marginTop: "2%" }}>
             <img
               className="square"
               id="video-frame"
               src={fractureMap}
-              alt="Ascent Map"
+              alt="Haven Map"
               style={{
                 paddingLeft: "0.1%",
                 paddingRight: "0.1%",

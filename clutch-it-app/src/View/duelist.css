@@ -1,167 +1,169 @@
 .bg {
-    background-color: #2C193F;
-    font-family: 'Rajdhani', sans-serif;
-    color: white;
-    text-shadow: -4px 2px 10px rgba(255, 255, 255, 0.83);
+  background-color: #2c193f;
+  font-family: "Rajdhani", sans-serif;
+  color: white;
+  text-shadow: -4px 2px 10px rgba(255, 255, 255, 0.83);
 }
 
 .smth {
-    text-decoration: none;
-    color: #FFF9C8;
+  text-decoration: none;
+  color: #fff9c8;
 }
 
+.navbar {
+  display: inline;
+  list-style: none;
+  padding-left: 15%;
+  padding-right: 15%;
 
-.navbar{
-    display: inline;
-    list-style: none;
-    padding-left: 15%;
-    padding-right: 15%;
-    
+  font-family: "Rajdhani", "Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100.6%;
+  /* or 33px */
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 100.6%;
-    /* or 33px */
+  letter-spacing: 0.1em;
 
-    letter-spacing: 0.1em;
+  color: #fff9c8;
 
-    color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
-} 
+  text-shadow: -4px 2px 10px #fff9c8;
+}
 
 .navbar-item:hover {
-    text-decoration: underline;
-    color: #FFF9C8;
+  text-decoration: underline;
+  color: #fff9c8;
+}
+
+li:hover {
+  color: #fff9c8;
 }
 
 .desc {
-    position: absolute;
-    width: 80%;
-    height: 253px;
-    left: 10%;
-    top: 280px;
+  position: absolute;
+  width: 80%;
+  height: 253px;
+  left: 10%;
+  top: 280px;
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 100.6%;
-    /* or 35px */
+  font-family: "Rajdhani", "Bold";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100.6%;
+  /* or 35px */
 
-    text-align: center;
-    letter-spacing: 0.1em;
+  text-align: center;
+  letter-spacing: 0.1em;
 
-    color: #FFF9C8;
+  color: #fff9c8;
 
-    text-shadow: -2px 0px 10px #FFFFFF;
+  text-shadow: -2px 0px 10px #ffffff;
 }
 
 .title {
-    position: absolute;
-    width: 80%;
-    height: 253px;
-    left: 10%;
-    top: 1500px;
+  position: absolute;
+  width: 80%;
+  height: 253px;
+  left: 10%;
+  top: 1500px;
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 100.6%;
-    /* or 35px */
+  font-family: "Rajdhani", "Bold";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100.6%;
+  /* or 35px */
 
-    text-align: center;
-    letter-spacing: 0.1em;
+  text-align: center;
+  letter-spacing: 0.1em;
 
-    color: #FFF9C8;
+  color: #fff9c8;
 
-    text-shadow: -2px 0px 10px #FFFFFF;
+  text-shadow: -2px 0px 10px #ffffff;
 }
 
 .tri {
-    float:center;
-    width: 50%;
-    height: 50%;
+  float: center;
+  width: 50%;
+  height: 50%;
 }
 
 .update {
-    float:center;
-    width: 80%;
-    height: 80%;
+  float: center;
+  width: 80%;
+  height: 80%;
 }
 
 .carousel {
-    top: 300px;
-    float:center;
-    width: 80%;
-    height: 80%;
+  top: 300px;
+  float: center;
+  width: 80%;
+  height: 80%;
 }
 
 .name-one {
-    position: absolute;
-    width: 80%;
-    height: 253px;
-    left: -20%;
-    top: 2010px;
+  position: absolute;
+  width: 80%;
+  height: 253px;
+  left: -20%;
+  top: 2010px;
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 100.6%;
-    /* or 35px */
+  font-family: "Rajdhani", "Bold";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 100.6%;
+  /* or 35px */
 
-    text-align: center;
-    letter-spacing: 0.1em;
+  text-align: center;
+  letter-spacing: 0.1em;
 
-    color: #FFF9C8;
+  color: #fff9c8;
 
-    text-shadow: -2px 0px 10px #2C193F;
+  text-shadow: -2px 0px 10px #2c193f;
 }
 
 .name-two {
-    position: absolute;
-    width: 80%;
-    height: 253px;
-    left: 12%;
-    top: 2000px;
+  position: absolute;
+  width: 80%;
+  height: 253px;
+  left: 12%;
+  top: 2000px;
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 75px;
-    line-height: 100.6%;
-    /* or 35px */
+  font-family: "Rajdhani", "Bold";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 100.6%;
+  /* or 35px */
 
-    text-align: center;
-    letter-spacing: 0.1em;
+  text-align: center;
+  letter-spacing: 0.1em;
 
-    color: #FFF9C8;
+  color: #fff9c8;
 
-    text-shadow: -2px 0px 10px #2C193F;
+  text-shadow: -2px 0px 10px #2c193f;
 }
 
 .name-three {
-    position: absolute;
-    width: 80%;
-    height: 253px;
-    left: 40%;
-    top: 2010px;
+  position: absolute;
+  width: 80%;
+  height: 253px;
+  left: 40%;
+  top: 2010px;
 
-    font-family: 'Rajdhani', 'Bold';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 100.6%;
-    /* or 35px */
+  font-family: "Rajdhani", "Bold";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 100.6%;
+  /* or 35px */
 
-    text-align: center;
-    letter-spacing: 0.1em;
+  text-align: center;
+  letter-spacing: 0.1em;
 
-    color: #FFF9C8;
+  color: #fff9c8;
 
-    text-shadow: -2px 0px 10px #2C193F;
+  text-shadow: -2px 0px 10px #2c193f;
 }
