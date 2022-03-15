@@ -14,18 +14,70 @@
     font-family: 'Rajdhani', 'Bold';
 }
 
-.title1 {
-    font-size: 96px;
+.title {
+    font-size: 80px;
     letter-spacing: 0.1em;
     text-align: center;
     color: #FFF9C8;
     text-shadow: -4px 2px 10px #FFF9C8;
 }
 
-.title2 {
+.controller {
     font-size: 64px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.1em;
     color: #FFF9C8;
     text-shadow: -4px 2px 10px #FFF9C8;
+    padding: 10px;
+    margin-left: 160px ;
+    margin-top: 30px;
+}
+
+.image {
+    text-align: center;
+    border: 2.5px solid #FF2E86;
+    box-sizing: border-box;
+    filter: drop-shadow(7px -7px 10px #FF2E86) drop-shadow(-7px 7px 12px #FFF9C8);
+    border-radius: 45px;
+    padding: 60px;
+    margin: 60px;
+    margin-top: 20px;
+}
+
+.sentinel {
+    font-size: 64px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 10px #FFF9C8;
+    padding: 10px;
+    margin-left: 350px ;
+    margin-top: 30px;
+}
+
+.initiator {
+    font-size: 64px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 10px #FFF9C8;
+    padding: 10px;
+    margin-left: 200px ;
+    margin-top: 30px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.duelist {
+    font-size: 64px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 10px #FFF9C8;
+    padding: 10px;
+    margin-left: 400px ;
+    margin-top: 30px;
 }
