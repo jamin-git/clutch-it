@@ -1,5 +1,6 @@
 import React from "react";
-import Triangles from '../Resources/TRIANGLES.svg';
+import Triangles from '../Resources/TRIANGLES.svg'
+import DuelUpdates from '../Resources/DUELISTUPDATE.svg'
 import './duelist.css';
 
 
@@ -24,8 +25,11 @@ function duelist() {
       </div>
 
 
+      <div class='update'>
+      <img src={DuelUpdates} />
+</div>
 
-    </div>
+  </div>
   )
 }
 
