@@ -51,3 +51,11 @@
   margin-top: 0.2%;
   border-radius: 45px;
 }
+
+#video-frame {
+  width: 17vw;
+  height: 17vw;
+  align-self: center;
+  margin-top: 0.2%;
+  border-radius: 45px;
+}
