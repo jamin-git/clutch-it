@@ -3,13 +3,13 @@ import "./maps.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 // Importing map images
-import havenMap from "../Resources/haven_map.jpg";
-import ascentMap from "../Resources/ascent_map.jpg";
-import iceboxMap from "../Resources/icebox_map.jpg";
-import bindMap from "../Resources/bind_map.jpg";
-import breezeMap from "../Resources/breeze_map.jpg";
-import splitMap from "../Resources/split_map.jpg";
-import fractureMap from "../Resources/fracture_map.jpg";
+import havenMap from "../Resources/map images/haven_map.jpg";
+import ascentMap from "../Resources/map images/ascent_map.jpg";
+import iceboxMap from "../Resources/map images/icebox_map.jpg";
+import bindMap from "../Resources/map images/bind_map.jpg";
+import breezeMap from "../Resources/map images/breeze_map.jpg";
+import splitMap from "../Resources/map images/split_map.jpg";
+import fractureMap from "../Resources/map images/fracture_map.jpg";
 
 const maps = () => {
   return (
@@ -576,7 +576,16 @@ const maps = () => {
           </div>
         </Col>
       </Row>
-      <Row>hello</Row>
+      <Row>
+        <a
+          id="teleport"
+          className="title1"
+          href="/maps"
+          style={{ fontSize: "1.5em" }}
+        >
+          Teleport
+        </a>
+      </Row>
     </Container>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import havenMap from "../Resources/haven_map.jpg";
+import havenMap from "../Resources/map images/haven_map.jpg";
 
 const MapsComponent = () => {
   return (
