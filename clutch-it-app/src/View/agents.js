@@ -5,19 +5,24 @@ import initiator from '../Resources/initiator.png'
 import duelist from '../Resources/duelist.png'
 import './agents.css'
 
-function agents() {
+
+const agents = () => {
   return (
     <div className='agents'>
+      <div>
         <h1 className="title1"> <u>AGENT TYPES</u></h1>
-        <div>
-            <h2 className="title2">CONTROLLER</h2>
-            <img src={controller} style={{padding: 60}}/>
-            <img src={sentinel} style={{padding: 60}}/>
-        </div>
-        <div>
-            <img src={initiator} style={{padding: 60}}/>
-            <img src={duelist} style={{padding: 60}}/>
-        </div>
+      </div>
+        <h2 className="controller">CONTROLLER </h2>
+        
+        <img className='image' src={controller} style={{}}/>
+        
+        <img className='image' src={sentinel} style={{}}/>
+
+      <div>
+        <h2 className="initiator">INITIATOR</h2>
+        <img className='image' src={initiator} style={{}}/>
+        <img className='image' src={duelist} style={{}}/>
+      </div>
     </div>
   )
 }
