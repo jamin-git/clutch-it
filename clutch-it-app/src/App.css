@@ -44,9 +44,16 @@
   color: #61dafb;
 }
 
+h1 {
+
+  color: white;
+}
+
 body {
   background-color: #2C193F;
   font-family: 'Rajdhani', sans-serif;
+  color: white;
+  text-shadow: -4px 2px 10px rgba(255, 255, 255, 0.83);
 }
 
 /* .navbar {
