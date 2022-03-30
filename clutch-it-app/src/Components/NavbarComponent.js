@@ -30,9 +30,9 @@ const NavbarComponent = () => {
               <Nav.Link className="nav-link">Maps</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="/highlights">
+            {/*<LinkContainer to="/highlights">
               <Nav.Link className="nav-link">Highlights</Nav.Link>
-            </LinkContainer>
+            </LinkContainer>*/}
 
           </Nav>
       </Container>
