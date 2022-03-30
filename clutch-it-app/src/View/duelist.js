@@ -45,9 +45,9 @@ function duelist() {
         <p class='name-two'>REYNA</p>
       </div>
 
-      <div>
+      <a href="/jett">
         <p class='name-three'>JETT</p>
-      </div>
+      </a>
 
   </div>
   )

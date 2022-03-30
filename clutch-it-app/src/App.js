@@ -14,6 +14,7 @@ import Agents from "./View/agents";
 import Maps from "./View/maps";
 import Highlights from "./View/highlights";
 import Duelist from "./View/duelist";
+import Jett from "./View/jett";
 
 // Routing Components
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -32,8 +33,9 @@ const App = () => {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/agents' element={<Agents />}></Route>
           <Route path='/maps' element={<Maps />}></Route>
-          <Route path='/highlights' element={<Highlights />}></Route>
+          {/*<Route path='/highlights' element={<Highlights />}></Route>*/}
           <Route path='/duelist' element={<Duelist />}></Route>
+          <Route path='/jett' element={<Jett />}></Route>
         </Routes>
       </Router>
     </div>
