@@ -14,54 +14,122 @@
     font-family: 'Rajdhani', 'Bold';
 }
 
-.title1 {
-    font-size: 80px;
-    letter-spacing: 0.1em;
+
+.cont-img {
+    position: absolute;
+    width: 398px;
+    height: 401px;
+    left: 215px;
+    top: 318px;
+}
+
+.sent-img {
+    position: absolute;
+    width: 398px;
+    height: 401px;
+    left: 822px;
+    top: 318px;
+}
+
+.init-img {
+    position: absolute;
+    width: 399px;
+    height: 401px;
+    left: 210px;
+    top: 805px;
+}
+
+.duel-img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 822px;
+    top: 805px;
+}
+
+.duel-txt {
+    position: absolute;
+    width: 451px;
+    height: 87px;
+    left: 830px;
+    top: 974px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100.6%;
+    /* or 64px */
+
     text-align: center;
-    color: #FFF9C8;
-    text-shadow: -4px 2px 10px #FFF9C8;
-}
-
-.controller {
-    font-size: 64px;
-    text-align: left;
     letter-spacing: 0.1em;
+
     color: #FFF9C8;
+
     text-shadow: -4px 2px 10px #FFF9C8;
-    padding: 10px;
-    margin-left: 150px ;
-    margin-top: 30px;
 }
 
-.image {
+.cont-txt {
+    position: absolute;
+    width: 534px;
+    height: 107px;
+    left: 173px;
+    top: 487px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100.6%;
+    /* or 64px */
+
     text-align: center;
-    border: 2.5px solid #FF2E86;
-    box-sizing: border-box;
-    filter: drop-shadow(7px -7px 10px #FF2E86) drop-shadow(-7px 7px 12px #FFF9C8);
-    border-radius: 45px;
-    padding: 60px;
-    margin: 60px;
-    margin-top: 20px;
+    letter-spacing: 0.1em;
+
+    color: #FFF9C8;
+
+    text-shadow: -4px 2px 10px #FFF9C8;
+
 }
 
-.sentinel {
+.sent-txt {
+    position: absolute;
+    width: 451px;
+    height: 88px;
+    left: 825px;
+    top: 487px;
+
+    font-style: normal;
+    font-weight: 600;
     font-size: 64px;
-    text-align: left;
+    line-height: 100.6%;
+    /* or 64px */
+
+    text-align: center;
     letter-spacing: 0.1em;
+
     color: #FFF9C8;
+
     text-shadow: -4px 2px 10px #FFF9C8;
-    padding: 10px;
-    margin-left: 150px ;
-    margin-top: 30px; 
+
 }
 
-.initiator {
+.init-txt {
+    position: absolute;
+    width: 441px;
+    height: 87px;
+    left: 220px;
+    top: 974px;
+
+    font-style: normal;
+    font-weight: 600;
     font-size: 64px;
-    text-align: left;
+    line-height: 100.6%;
+    /* or 64px */
+
+    text-align: center;
     letter-spacing: 0.1em;
+
     color: #FFF9C8;
+
     text-shadow: -4px 2px 10px #FFF9C8;
-    padding: 10px;
-    margin-left: 200px ;
-    margin-top: 30px;
+
 }

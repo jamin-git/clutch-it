@@ -6,9 +6,8 @@ import './Navbar.css'
 const NavbarComponent = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar variant="dark">
         <Container>
-          <Navbar.Brand>Navbar</Navbar.Brand>
           <Nav className="me-auto">
           
             <LinkContainer to="/">
@@ -31,9 +30,9 @@ const NavbarComponent = () => {
               <Nav.Link className="nav-link">Maps</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="/highlights">
+            {/*<LinkContainer to="/highlights">
               <Nav.Link className="nav-link">Highlights</Nav.Link>
-            </LinkContainer>
+            </LinkContainer>*/}
 
           </Nav>
       </Container>
