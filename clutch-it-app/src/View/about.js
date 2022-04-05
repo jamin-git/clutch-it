@@ -3,12 +3,38 @@
 // plugin, create a new js file, and type rfce and hit enter.
 
 import React from 'react'
+import './about.css';
 
 function about() {
   return (
-    <div>
-        <h1>Here is the about page!</h1>
+    <div class='about'>
+      <div>
+        <p class='abt-text'> MEET THE TEAM!</p>
+      </div>
+
+      <div class='team-box1'></div>
+
+      <div class='team-box2'></div>
+
+      <div class = 'team-box3'></div>
+
+      <div class = 'team-box4'></div>
+
+      <div class = 'team-box5'></div>
+
+      <div class = 'team-box6'></div>
+
+      <div>
+        <p class='libraries-text'> LIBRARIES USED</p>
+      </div>
+
+      <div class='libraries-box'>
+        <p class='libraries-txt1'>- React</p>
+        <p class='libraries-txt2'>- Bootstrap</p>
+      </div>
+
     </div>
+
   )
 }
 
