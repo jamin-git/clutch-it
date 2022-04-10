@@ -4,6 +4,7 @@ import Agents from '../Resources/AGENTS.svg'
 import Maps from '../Resources/MAPS.svg'
 import './highlights.css'
 
+
 const highlights = () => {
   return (
     <div class='highlights'>
