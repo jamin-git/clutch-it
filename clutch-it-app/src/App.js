@@ -12,7 +12,6 @@ import About from "./View/about";
 import Contact from "./View/contact";
 import Agents from "./View/agents";
 import Maps from "./View/maps";
-import Highlights from "./View/highlights";
 import Duelist from "./View/duelist";
 import Jett from "./View/jett";
 
@@ -28,7 +27,7 @@ const App = () => {
       <Router>
       <NavbarComponent />
         <Routes>
-          <Route path='/' element={<Highlights />}></Route>
+          <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/agents' element={<Agents />}></Route>
