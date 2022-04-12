@@ -9,9 +9,9 @@ const home = () => {
   return (
     <div class='home'>
 
-      <div class="img-container">
+      {/* <div class="img-container">
         <img  class='home-img' src={HomeImage} />
-      </div>
+      </div> */}
 
       {/* updates */}
       <div class="container">

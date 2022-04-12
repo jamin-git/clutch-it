@@ -15,3 +15,10 @@
     width: 100vw;
     height: min-content;
 }
+
+.two-carousel {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
