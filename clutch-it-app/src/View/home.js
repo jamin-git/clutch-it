@@ -2,13 +2,14 @@ import React from "react";
 import HomeImage from "../Resources/HomeImage.svg";
 import Agents from "../Resources/AGENTS.svg";
 import Maps from "../Resources/MAPS.svg";
+import homImg from "../Resources/HomeImg.png";
 import "./home.css";
 
 const home = () => {
   return (
     <div class="home">
       <div class="img-container">
-        <img class="home-img" src={HomeImage} alt="Home" />
+        <img class="home-img" src={homImg} alt="Home" />
       </div>
 
       {/* updates */}
