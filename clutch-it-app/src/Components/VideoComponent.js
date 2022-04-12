@@ -1,5 +1,6 @@
 import React from 'react'
 import YouTube from 'react-youtube'
+import "./Youtube.css"
 
 
 // https://www.youtube.com/watch?v=_nBlN9yp9R8
@@ -22,11 +23,13 @@ function VideoComponent(props) {
 
     const {videoId} = props;
 
-    return (<YouTube
-    videoId={videoId}
-    opts={opts} 
-    onReady={videoOnReady} 
-    />);    
+    return (
+    <div className="youtube-sm">
+        <div className="youtube-sm-inner">
+            <YouTube videoId={videoId} opts={opts} onReady={videoOnReady} />
+        </div>
+    </div>
+    );    
 }
 
 export default VideoComponent
