@@ -1,42 +1,84 @@
-import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import React, { useState } from "react";
+import { Navbar, Nav, Button, Offcanvas, OffcanvasBody, OffcanvasHeader, Container } from "react-bootstrap";
 import {LinkContainer} from 'react-router-bootstrap';
 import './Navbar.css'
 
 const NavbarComponent = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div>
-      <Navbar variant="dark">
+      <Navbar variant="dark" expand="md">
         <Container>
-          <Nav className="me-auto">
+          <Navbar.Brand href="/">
+            <h1>CLUTCH.IT</h1>
+          </Navbar.Brand>
           
-            <LinkContainer to="/">
-              <Nav.Link className="nav-link">Home</Nav.Link>
-            </LinkContainer>
+          <Button onClick={handleShow} size="md" variant="btn-outline-dark" placement="end">
+            <i class="bi bi-list"></i>
+          </Button>
+        </Container>
+          
 
-            <LinkContainer to="/about">
-              <Nav.Link className="nav-link">About</Nav.Link>
-            </LinkContainer>
+          <Offcanvas show={show} onHide={handleClose} placement="end">
+            <OffcanvasHeader>
+              <Button onClick={handleClose} size="md" variant="btn-outline-dark">
+                  <i class="bi bi-list"></i>
+                </Button>
+            </OffcanvasHeader>
 
-            <LinkContainer to="/contact">
-              <Nav.Link className="nav-link">Contact</Nav.Link>
-            </LinkContainer>
+            <OffcanvasBody class="nav-content">
+              <Nav className="me-auto flex-column">
 
-            <LinkContainer to="/agents">
-              <Nav.Link className="nav-link">Agents</Nav.Link>
-            </LinkContainer>
+              <LinkContainer to="/">
+                <Nav.Link><h2>HOME</h2></Nav.Link>
+              </LinkContainer>
+              
+              <LinkContainer to="/agents">
+                <Nav.Link><h2>AGENTS</h2></Nav.Link>
+              </LinkContainer>
 
-            <LinkContainer to="/maps">
-              <Nav.Link className="nav-link">Maps</Nav.Link>
-            </LinkContainer>
+                  <LinkContainer to="/">
+                    <Nav.Link><h3>CONTROLLER</h3></Nav.Link>
+                  </LinkContainer>
 
-            {/*<LinkContainer to="/highlights">
-              <Nav.Link className="nav-link">Highlights</Nav.Link>
-            </LinkContainer>*/}
+                  <LinkContainer to="/">
+                    <Nav.Link><h3>DUELIST</h3></Nav.Link>
+                  </LinkContainer>
 
-          </Nav>
-      </Container>
-    </Navbar>
+                  <LinkContainer to="/">
+                    <Nav.Link><h3>INITIATOR</h3></Nav.Link>
+                  </LinkContainer>
+
+                  <LinkContainer to="/">
+                    <Nav.Link><h3>SENTINEL</h3></Nav.Link>
+                  </LinkContainer>
+
+              <LinkContainer to="/maps">
+                <Nav.Link><h2>MAPS</h2></Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/about">
+                <Nav.Link><h2>ABOUT</h2></Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/contact">
+                <Nav.Link><h2>CONTACT</h2></Nav.Link>
+              </LinkContainer>
+
+              {/*<LinkContainer to="/highlights">
+                <Nav.Link className="nav-link">Highlights</Nav.Link>
+              </LinkContainer>*/}
+
+              </Nav>
+            </OffcanvasBody>
+          </Offcanvas>
+      </Navbar>
+  
+    
       {/* Going to Comment this out for now, I would suggest keeping all the styling in a seperate css file */}
         {/* <Navbar
           style={{
@@ -82,6 +124,7 @@ const NavbarComponent = () => {
         </Navbar> */}
     </div>
   );
+
 };
 
 export default NavbarComponent;
