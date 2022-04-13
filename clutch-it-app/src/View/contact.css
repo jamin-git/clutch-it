@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box .container {
+    position: relative;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: min-content;
+}
+
+.two-carousel {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
