@@ -1,22 +1,76 @@
 @font-face {
-    font-family: 'Regular';
-    src: url(../Fonts/Rajdhani-Regular.ttf) format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'Bold';
-    src: url(../Fonts/Rajdhani-SemiBold.ttf) format('truetype');
-  }
+  font-family: 'Regular';
+  src: url(../Fonts/Rajdhani-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(../Fonts/Rajdhani-SemiBold.ttf) format('truetype');
+}
+
+.container {
+  width: 100vw;
+}
 
 .navbar-style {
   background: rgba(115, 89, 141, 0.39);
-  color: #FFF9C8;
+  color: #FF2E86;
 }
 
-.nav-link {
-    text-align: center;
+.navbar-brand h1 {
+  color: #FF2E86;
+  text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+  letter-spacing: 0.2em;
+  font-size: 2.5vw;
+  text-align: center;
+  text-decoration: none;
+  max-height: min-content;
+}
+
+.nav-content h2 {
+    text-decoration: none;
+    text-align: left;
     font-family: 'Rajdhani', 'Bold';
+    font-size: 2vw;
     letter-spacing: 0.1em;
-    color: #FFF9C8;
+
+    color: white;
     text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
-  }
+}
+
+.nav-content h3 {
+  text-decoration: none;
+    text-align: left;
+    text-indent: 1em;
+    font-family: 'Rajdhani', 'Bold';
+    font-size: 1.5vw;
+    letter-spacing: 0.1em;
+
+    color: white;
+    text-shadow: -4px 2px 10px rgba(255, 46, 134, 0.83);
+}
+
+.offcanvas-header {
+  background-color: #8F7CA3;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.bg-dark {
+  background-color: red;
+}
+
+.btn-primary {
+  fill: #8F7CA3;
+}
+
+.nav-content {
+  background-color: #8F7CA3;
+  height: 100vh;
+  padding-left: 2em;
+}
+
+.bi-list {
+  color: rgba(255, 46, 134);
+}
