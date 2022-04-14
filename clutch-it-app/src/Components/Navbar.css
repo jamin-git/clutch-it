@@ -8,13 +8,8 @@
   src: url(../Fonts/Rajdhani-SemiBold.ttf) format('truetype');
 }
 
-.container {
-  width: 100vw;
-}
-
-.navbar-style {
-  background: rgba(115, 89, 141, 0.39);
-  color: #FF2E86;
+.navbar-dark {
+  background: #48325E;
 }
 
 .navbar-brand h1 {

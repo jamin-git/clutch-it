@@ -22,6 +22,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div class='App'>
+    <style>{'body { background-color: #2C193F; }'}</style>
     {/* Initializing the Navbar & React Router Stuff */}
       <Router>
       <NavbarComponent />
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/agents' element={<Agents />}></Route>
           <Route path='/maps' element={<Maps />}></Route>
+          {/*<Route path='/highlights' element={<Highlights />}></Route>*/}
           <Route path='/duelist' element={<Duelist />}></Route>
           <Route path='/jett' element={<Jett />}></Route>
         </Routes>

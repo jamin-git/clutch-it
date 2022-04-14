@@ -9,44 +9,55 @@ import "./about.css";
 const agents = () => {
   return (
     <div className="agents">
+        <h1>AGENT TYPES</h1>
 
-      <div>
-        <p class='abt-text'> AGENT TYPES</p>
+      <div class="container">
+        <div class="img-container">
+            <div class="link-container">
+              <h1>
+                <a class="link" href="/">
+                  CONTROLLER
+                </a>
+              </h1>
+            </div>
+            <img class="roles-img" src={Controller} />
+        </div>
+
+        <div class="img-container">
+            <div class="link-container">
+              <h1>
+                <a class="link" href="/duelist">
+                  DUELIST
+                </a>
+              </h1>
+            </div>
+            <img class="roles-img" src={Duelist} />
+        </div>
       </div>
 
-      <div class='cont-img'>
-          <img src={Controller} />
+      <div class="container">
+        <div class="img-container">
+            <div class="link-container">
+              <h1>
+                <a class="link" href="/">
+                  INITIATOR
+                </a>
+              </h1>
+            </div>
+            <img class="roles-img" src={Initiator} />
+        </div>
+
+        <div class="img-container">
+            <div class="link-container">
+              <h1>
+                <a class="link" href="/">
+                  SENTINEL
+                </a>
+              </h1>
+            </div>
+            <img class="roles-img" src={Sentinel} />
+        </div>
       </div>
-
-      <div class='sent-img'>
-          <img src={Sentinel} />
-      </div> 
-
-      <div class='init-img'>
-          <img src={Initiator} />
-      </div> 
-
-      <div class='duel-img'>
-          <img src={Duelist} />
-      </div> 
-
-      <a href="/duelist">
-        <p class='duel-txt'>DUELISTS</p>
-      </a>
-
-      <a>
-        <p class='cont-txt'>CONTROLLERS</p>
-      </a>
-
-      <a>
-        <p class='sent-txt'>SENTENIALS</p>
-      </a>
-
-      <a>
-        <p class='init-txt'>INITIATORS</p>
-      </a>
-
-
     </div>
   );
 };

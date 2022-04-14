@@ -12,124 +12,61 @@
 .agents {
     background-color: #2C193F;
     font-family: 'Rajdhani', 'Bold';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
+.agents h1 {
+    position: relative;
 
-.cont-img {
-    position: absolute;
-    width: 398px;
-    height: 401px;
-    left: 215px;
-    top: 318px;
-}
-
-.sent-img {
-    position: absolute;
-    width: 398px;
-    height: 401px;
-    left: 822px;
-    top: 318px;
-}
-
-.init-img {
-    position: absolute;
-    width: 399px;
-    height: 401px;
-    left: 210px;
-    top: 805px;
-}
-
-.duel-img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 822px;
-    top: 805px;
-}
-
-.duel-txt {
-    position: absolute;
-    width: 451px;
-    height: 87px;
-    left: 830px;
-    top: 974px;
-
-    font-style: normal;
+    text-decoration: none;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
+    font-size: 4.5vw;
     text-align: center;
     letter-spacing: 0.1em;
-
     color: #FFF9C8;
-
     text-shadow: -4px 2px 10px #FFF9C8;
 }
 
-.cont-txt {
-    position: absolute;
-    width: 534px;
-    height: 107px;
-    left: 173px;
-    top: 487px;
+.agents .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
-    text-align: center;
-    letter-spacing: 0.1em;
-
-    color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
-
+    width: 100vw;
+    height: min-content;
 }
 
-.sent-txt {
-    position: absolute;
-    width: 451px;
-    height: 88px;
-    left: 825px;
-    top: 487px;
+.img-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
-    text-align: center;
-    letter-spacing: 0.1em;
-
-    color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
-
+    padding: 0;
 }
 
-.init-txt {
+.link-container {
     position: absolute;
-    width: 441px;
-    height: 87px;
-    left: 220px;
-    top: 974px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
-    text-align: center;
+.agents .link {
+    text-decoration: none;
     letter-spacing: 0.1em;
+    color: #fff9c8;
+    text-shadow: -4px 2px 10px #fff9c8;
+    font-size: 3.8vw;
+}
 
-    color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
-
+.roles-img {
+    width: 32vw;
+    margin: 2em;
 }
