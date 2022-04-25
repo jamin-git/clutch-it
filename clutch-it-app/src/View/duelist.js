@@ -3,20 +3,12 @@ import Triangles from '../Resources/TRIANGLES.svg'
 import DuelUpdates from '../Resources/DUELISTUPDATE.svg'
 import caro from '../Resources/fakeCaro.svg'
 import './duelist.css';
-
-
+import MiniNav from "../Components/MiniNav";
 
 function duelist() {
   return (
     <div>
-      <div>
-        <ul class='navbar'>
-          <li class='navbar-item'>CONTROLLER</li>
-          <li class='navbar-item'><a class='smth' target="_self" href="./duelist" >DUELIST</a></li>
-          <li class='navbar-item'>SENTINEL</li>
-          <li class='navbar-item'>INITIATOR</li>
-        </ul>
-      </div>
+      <MiniNav />
 
       <div class='tri'>
         <img src={Triangles} />
@@ -37,18 +29,18 @@ function duelist() {
         <img src={caro} />
       </div>
 
-      <div>
-        <p class='name-one'>RAZE</p>
-      </div>
+        <a href="/raze">
+          <p class='name-one'>RAZE</p>
+        </a>
 
-      <div>
-        <p class='name-two'>REYNA</p>
-      </div>
+        <a href="/reyna">
+          <p class='name-two'>REYNA</p>
+        </a>
 
-      <a href="/jett">
-        <p class='name-three'>JETT</p>
-      </a>
-
+        <a href="/jett">
+          <p class='name-three'>JETT</p>
+        </a>
+      
   </div>
   )
 }
