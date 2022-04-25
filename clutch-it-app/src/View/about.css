@@ -1,160 +1,110 @@
 .about {
-    font-family: 'Rajdhani', "Bold";
+    background-color: #2C193F;
+    font-family: 'Rajdhani', 'Bold';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
-.abt-text {
-    position: absolute;
-    width: 623px;
-    height: 61px;
-    left: 408px;
-    top: 117px;
+.about h1 {
+    position: relative;
 
-    font-family: 'Rajdhani', "Bold";
-    font-style: normal;
+    text-decoration: underline;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
+    font-size: 4vw;
     text-align: center;
     letter-spacing: 0.1em;
-
     color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
+    text-shadow: -4px 2px 30px #FFF9C8;
 }
 
-.libraries-text {
-    position: absolute;
-    width: 623px;
-    height: 61px;
-    left: 408px;
-    top: 928px;
+.about h2 {
+    position: relative;
 
-    font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 100.6%;
-    /* or 64px */
-
+    font-size: 2.3vw;
     text-align: center;
     letter-spacing: 0.1em;
+}
 
+.about .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    padding-bottom: 2em;
+    height: min-content;
+}
+
+.about-us {
+    width: 20vw;
+    height: fit-content;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 20px;
+    background-color: #48325E;
+
+    color: white;
+    text-shadow: none;
+}
+
+.members-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: min-content;
+}
+
+.members-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 28vw;
+    height: fit-content;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 20px;
+    background-color: #48325E;
+
+    color: white;
+    text-shadow: none;
+}
+
+.socials {
+    display: inline-flex;
+}
+
+.socials a {
+    margin-right: 0.5em;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.socials a:hover {
     color: #FFF9C8;
-
-    text-shadow: -4px 2px 10px #FFF9C8;
-
 }
 
 .libraries-box {
-    position: absolute;
-    width: 1241px;
-    height: 287px;
-    left: 101px;
-    top: 1059px;
+    position: relative;
+
+    width: 60vw;
+    height: fit-content;
+    margin: 0.5em;
 
     background: #48325E;
     border-radius: 20px;
-}
-
-.libraries-txt1 {
-    position: absolute;
-    width: 595px;
-    height: 150px;
-    left: -10px;
-    top: 50px;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 100.6%;
-    /* or 48px */
-
-    letter-spacing: 0.1em;
-
-    color: #FFFFFF;
-}
-
-.libraries-txt2 {
-    position: absolute;
-    width: 595px;
-    height: 150px;
-    left: 43px;
-    top: 140px;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 100.6%;
-    /* or 48px */
-
-    letter-spacing: 0.1em;
-
-    color: #FFFFFF;
-}
-
-.team-box1 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 100px;
-    top: 238px;
-
-    background: #48325E;
-    border-radius: 20px;
-}
-
-.team-box2 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 736px;
-    top: 237px;
-
-    background: #48325E;
-    border-radius: 20px;
-}
-
-.team-box3 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 100px;
-    top: 437px;
-
-    background: #48325E;
-    border-radius: 20px;
-}
-
-.team-box4 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 736px;
-    top: 437px;
-
-    background: #48325E;
-    border-radius: 20px;
-}
-
-.team-box5 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 100px;
-    top: 637px;
-
-    background: #48325E;
-    border-radius: 20px;
-}
-
-.team-box6 {
-    position: absolute;
-    width: 606px;
-    height: 169px;
-    left: 736px;
-    top: 637px;
-
-    background: #48325E;
-    border-radius: 20px;
+    color: white;
+    text-shadow: none;
 }

@@ -45,7 +45,7 @@ const NavbarComponent = () => {
                     <Nav.Link><h3>CONTROLLER</h3></Nav.Link>
                   </LinkContainer>
 
-                  <LinkContainer to="/">
+                  <LinkContainer to="/duelist">
                     <Nav.Link><h3>DUELIST</h3></Nav.Link>
                   </LinkContainer>
 
