@@ -7,24 +7,24 @@
 
 .desc {
   position: absolute;
-  width: 80%;
-  height: 253px;
-  left: 10%;
-  top: 280px;
+  width: 682px;
+  height: 348.48px;
+  left: 201px;
+  top: 470px;
 
   font-family: "Rajdhani", "Bold";
   font-style: bold;
-  font-weight: 600;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 100.6%;
-  /* or 35px */
+  text-align: left;
+  /* or 36px */
 
-  text-align: center;
   letter-spacing: 0.1em;
 
-  color: #fff9c8;
+  color: #FFF9C8;
 
-  text-shadow: -2px 0px 10px #ffffff;
+  text-shadow: -2px 0px 10px #FFFFFF;
 }
 
 .title {
@@ -49,24 +49,15 @@
   text-shadow: -2px 0px 10px #ffffff;
 }
 
-.tri {
-  float: center;
-  width: 50%;
-  height: 50%;
+.main {
+  position: absolute;
+  width: 1515px;
+  height: 904px;
+  left: -75px;
+  top: 90px;
+
 }
 
-.update {
-  float: center;
-  width: 80%;
-  height: 80%;
-}
-
-.carousel {
-  top: 300px;
-  float: center;
-  width: 80%;
-  height: 80%;
-}
 
 .name-one {
   position: absolute;

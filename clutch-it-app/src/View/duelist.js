@@ -1,8 +1,7 @@
 import React from "react";
-import Triangles from '../Resources/TRIANGLES.svg'
-import DuelUpdates from '../Resources/DUELISTUPDATE.svg'
-import caro from '../Resources/fakeCaro.svg'
-import './duelist.css';
+import DuelistsMain from '../Resources/type-imgs/duelists.svg'
+import DuelistBgnd from '../Resources/type-imgs/duelbgnd.svg'
+import './types.css';
 import MiniNav from "../Components/MiniNav";
 
 function duelist() {
@@ -10,24 +9,24 @@ function duelist() {
     <div>
       <MiniNav />
 
-      <div class='tri'>
-        <img src={Triangles} />
+      <div>
+        <img class='mainImg' src={DuelistsMain} />
+        <div class='desc-container'>
+          <p class='desc-item'> DUELISTS are one of the four roles that agents are divided into in VALORANT. They have abilities that allow them to focus on being the first to enter sites and engage the enemy. They are self-sufficient fraggers who their team expects, through abilities and skills, to get high frags and seek out engagements first.</p>
+        </div>
+        <div>
+          <p class='title'>MEET THE AGENTS</p>
       </div>
       <div>
-        <p class='desc'>DUELISTS are the agents that create some of the most impact, offering aggression to a team comp. They should be expected to seek out engagements and frag, may that be finding the opening pick or clutching out a round.</p>
+        <img class='bgnd' src={DuelistBgnd}/>
+      </div>
       </div>
 
-      <div class='update'>
-        <img src={DuelUpdates} />
-      </div>
 
-      <div>
+      {/* <div>
         <p class='title'>MEET THE AGENTS</p>
       </div>
 
-      <div class='carousel'>
-        <img src={caro} />
-      </div>
 
         <a href="/raze">
           <p class='name-one'>RAZE</p>
@@ -39,7 +38,7 @@ function duelist() {
 
         <a href="/jett">
           <p class='name-three'>JETT</p>
-        </a>
+        </a> */}
       
   </div>
   )
