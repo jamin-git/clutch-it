@@ -9,7 +9,10 @@ import AboutImg from '../Resources/ABOUT.png'
 function about() {
   return (
     <div class='about'>
-      <img class='aboutImg' src={AboutImg}/>
+      <div class="img-container">
+        <img class='aboutImg' src={AboutImg}/>      
+      </div>
+
       {/* <h1>ABOUT US</h1>
       <div class="container">
         <div class="about-us">
@@ -20,11 +23,11 @@ function about() {
         </div>
       </div> */}
 
-      <h1>MEET THE TEAM</h1>
       <div class="container">
+        <h1>MEET THE TEAM</h1>
         <div class="members-container">
           <div class="members-item">
-            <h2> Jacob </h2>
+            <h2> Jacob Amin </h2>
             <div class="socials">
               <a href="https://www.github.com/jamin-git" target="_blank" rel="noopener noreferrer"> Github </a>
               <a href="https://www.linkedin.com/in/jacobsamin/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
@@ -32,24 +35,16 @@ function about() {
           </div>
 
           <div class="members-item">
-            <h2> Michelle </h2>
+            <h2> Michelle Lee </h2>
             <div class="socials">
               <a href="https://www.github.com/michelle692" target="_blank" rel="noopener noreferrer"> Github </a>
-            </div>
-          </div>
-
-          <div class="members-item">
-            <h2> Sushant </h2>
-            <div class="socials">
-              <a href="https://www.github.com/SushGuha" target="_blank" rel="noopener noreferrer"> Github </a>
-              <a href="https://www.linkedin.com/in/sushantguha/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
         </div>
 
         <div class="members-container">
           <div class="members-item">
-            <h2> Andy </h2>
+            <h2> Andy Nguyen </h2>
             <div class="socials">
               <a href="https://www.github.com/andyng2002" target="_blank" rel="noopener noreferrer"> Github </a>
               <a href="https://www.linkedin.com/in/andynguyen--/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
@@ -57,30 +52,42 @@ function about() {
           </div>
 
           <div class="members-item">
-            <h2> Chloe </h2>
+              <h2> Sushant Guha </h2>
+              <div class="socials">
+                <a href="https://www.github.com/SushGuha" target="_blank" rel="noopener noreferrer"> Github </a>
+                <a href="https://www.linkedin.com/in/sushantguha/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="members-container">
+          <div class="members-item">
+              <h2> Mina Koo </h2>
+              <div class="socials">
+                <a href="https://www.github.com/kmina9" target="_blank" rel="noopener noreferrer"> Github </a>
+              </div>
+            </div>
+
+          <div class="members-item">
+            <h2> Chloe Ng </h2>
             <div class="socials">
               <a href="https://www.github.com/chlo-ng" target="_blank" rel="noopener noreferrer"> Github </a>
               <a href="https://www.linkedin.com/in/chlo-ng/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
-
-          <div class="members-item">
-            <h2> Mina </h2>
-            <div class="socials">
-              <a href="https://www.github.com/kmina9" target="_blank" rel="noopener noreferrer"> Github </a>
-            </div>
-          </div>
         </div>
       </div>
  
-      <h1>LIBRARIES USED</h1>
 
-      <div class='libraries-box'>
-        <h2>- React</h2>
-        <h2>- Bootstrap</h2>
-      </div> 
+      <div class='container'>
+        <h1>LIBRARIES USED</h1>
+
+        <div class='libraries-box'>
+          <h2>• React</h2>
+          <h2>• Bootstrap</h2>
+        </div>
+      </div>
     </div>
-
   )
 }
 

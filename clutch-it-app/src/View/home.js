@@ -15,7 +15,7 @@ const home = () => {
         <img class="home-img" src={homImg} alt="Home" />
       </div>
       <div class='learn-container'>
-            <p class='learn-item'> LEARN ABOUT VALORANT HERE!</p>
+          <p class='learn-item'> LEARN ABOUT VALORANT HERE!</p> 
       </div>
 
       {/* updates */}
