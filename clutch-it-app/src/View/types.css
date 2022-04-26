@@ -105,11 +105,31 @@
     position: absolute;
     top: 40%;
     right: 65%;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100.6%;
+    /* or 64px */
+
+    letter-spacing: 0.1em;
+
+    color: #FFF9C8;
+
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.83);
   }
   .caroCapRight {
     position: absolute;
     top: 40%;
     right: 35%;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100.6%;
+    /* or 64px */
+
+    letter-spacing: 0.1em;
+
+    color: #FFF9C8;
+
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.83);
   }
 
   .caroItemsCap {
@@ -117,8 +137,30 @@
     margin-top: 100em;
   }
 
+  a:link {
+    text-decoration: none;
+  }
+
 .carousel-bg {
   background-image: url('../Resources/type-imgs/duelbgnd.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-bg2 {
+  background-image: url('../Resources/type-imgs/controlbgnd.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-bg3 {
+  background-image: url('../Resources/type-imgs/initbgnd.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-bg4 {
+  background-image: url('../Resources/type-imgs/sentbgnd.svg');
   background-position: center;
   background-repeat: no-repeat;
 }

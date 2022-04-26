@@ -25,7 +25,7 @@ import { Row, Col, Carousel } from "react-bootstrap";
           <div>
             <p class='title'>MEET THE AGENTS</p>
         </div>
-        <div class="carousel-bg">
+        <div class="carousel-bg" style={{marginTop: '-20em'}}>
           <Carousel>
             <Carousel.Item>
               <img class='padRight' src={ReynaDuel}/>

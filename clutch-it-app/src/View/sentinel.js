@@ -25,18 +25,17 @@ function sentinel() {
           <div>
             <p class='title'>MEET THE AGENTS</p>
         </div>
-        <div>
-          <img class='bgnd' src={SentinelBgnd}/>
+        <div class="carousel-bg4" style={{marginTop: '-20em'}}>
           <Carousel>
             <Carousel.Item>
               <img src={ChambSent}/>
               <img src={KillSent}/>
-              <div class='caroCap'>
+              <div class='caroCapLeft'>
                 <a href="/chamber">
                   <h1>CHAMBER</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/killjoy">
                   <h1>KILLJOY</h1>
                 </a>
@@ -45,12 +44,12 @@ function sentinel() {
             <Carousel.Item>
               <img src={CyphSent}/>
               <img src={SageSent}/>
-              <div class='caroCap'>
+              <div class='caroCapLeft'>
                 <a href="/cypher">
                   <h1>CYPHER</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/sage">
                   <h1>SAGE</h1>
                 </a>
