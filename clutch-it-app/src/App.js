@@ -12,6 +12,9 @@ import About from "./View/about";
 import Agents from "./View/agents";
 import Maps from "./View/maps";
 import Duelist from "./View/duelist";
+import Controller from "./View/controller";
+import Initiator from "./View/initiator";
+import Sentinel from "./View/sentinel";
 
 import Jett from "./View/jett";
 import Reyna from "./View/reyna";
@@ -51,7 +54,7 @@ const App = () => {
           <Route path='/about' element={<About />}></Route>
           <Route path='/agents' element={<Agents />}></Route>
           <Route path='/maps' element={<Maps />}></Route>
-          {/*<Route path='/highlights' element={<Highlights />}></Route>*/}
+
           <Route path='/duelist' element={<Duelist />}></Route>
           <Route path='/jett' element={<Jett />}></Route>
           <Route path='/reyna' element={<Reyna />}></Route>
@@ -60,16 +63,19 @@ const App = () => {
           <Route path='/phoenix' element={<Phoenix />}></Route>
           <Route path='/neon' element={<Neon />}></Route>
 
+          <Route path='/initiator' element={<Initiator />}></Route>
           <Route path='/skye' element={<Skye />}></Route>
           <Route path='/sova' element={<Sova />}></Route>
           <Route path='/breach' element={<Breach />}></Route>
           <Route path='/kayo' element={<Kayo />}></Route>
 
+          <Route path='/controller' element={<Controller />}></Route>
           <Route path='/viper' element={<Viper />}></Route>
           <Route path='/omen' element={<Omen />}></Route>
           <Route path='/brimstone' element={<Brimstone />}></Route>
           <Route path='/astra' element={<Astra />}></Route>
-
+          
+          <Route path='/sentinel' element={<Sentinel />}></Route>
           <Route path='/sage' element={<Sage />}></Route>
           <Route path='/killjoy' element={<Killjoy />}></Route>
           <Route path='/chamber' element={<Chamber />}></Route>

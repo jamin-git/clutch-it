@@ -5,10 +5,10 @@ function MiniNav() {
     return (
         <div class="mini-nav">
             <ul class='navbar'>
-                <a class='nav-link' href="" ><li class='navbar-item'>CONTROLLER</li></a>
+                <a class='nav-link' href="./controller" ><li class='navbar-item'>CONTROLLER</li></a>
                 <a class='nav-link' href="./duelist" ><li class='navbar-item'>DUELIST</li></a>
-                <a class='nav-link' href="" ><li class='navbar-item'>SENTINEL</li></a>
-                <a class='nav-link' href="" ><li class='navbar-item'>INITIATOR</li></a>
+                <a class='nav-link' href="./sentinel" ><li class='navbar-item'>SENTINEL</li></a>
+                <a class='nav-link' href="./initiator" ><li class='navbar-item'>INITIATOR</li></a>
             </ul>
         </div>
     );

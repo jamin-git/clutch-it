@@ -4,11 +4,13 @@
 
 import React from 'react'
 import './about.css';
+import AboutImg from '../Resources/ABOUT.png'
 
 function about() {
   return (
     <div class='about'>
-      <h1>ABOUT US</h1>
+      <img class='aboutImg' src={AboutImg}/>
+      {/* <h1>ABOUT US</h1>
       <div class="container">
         <div class="about-us">
           <h2> Our Goal</h2>
@@ -16,7 +18,7 @@ function about() {
             text here
           </p>
         </div>
-      </div>
+      </div> */}
 
       <h1>MEET THE TEAM</h1>
       <div class="container">

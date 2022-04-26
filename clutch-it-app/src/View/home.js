@@ -14,6 +14,9 @@ const home = () => {
       <div class="img-container">
         <img class="home-img" src={homImg} alt="Home" />
       </div>
+      <div class='learn-container'>
+            <p class='learn-item'> LEARN ABOUT VALORANT HERE!</p>
+      </div>
 
       {/* updates */}
       <div class="container">
