@@ -25,46 +25,45 @@ import { Row, Col, Carousel } from "react-bootstrap";
           <div>
             <p class='title'>MEET THE AGENTS</p>
         </div>
-        <div>
-          <img class='bgnd' src={DuelistBgnd}/>
+        <div class="carousel-bg" style={{marginTop: '-20em'}}>
           <Carousel>
             <Carousel.Item>
-              <img src={ReynaDuel}/>
-              <img src={JettDuel}/>
-              <div class='caroCap'>
+              <img class='padRight' src={ReynaDuel}/>
+              <img class='padLeft padTop' src={JettDuel}/>
+              <div class='caroCapLeft'>
                 <a href="/reyna">
                   <h1>REYNA</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/jett">
                   <h1>JETT</h1>
                 </a>
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={YoruDuel}/>
-              <img src={PhoenixDuel}/>
-              <div class='caroCap'>
+              <img class='padRight padTop' src={YoruDuel}/>
+              <img class='padLeft padTop' src={PhoenixDuel}/>
+              <div class='caroCapLeft'>
                 <a href="/yoru">
                   <h1>YORU</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/phoenix">
                   <h1>PHOENIX</h1>
                 </a>
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={RazeDuel}/>
-              <img src={NeonDuel}/>
-              <div class='caroCap'>
+              <img class='padRight padTop' src={RazeDuel}/>
+              <img class='padLeft padTop' src={NeonDuel}/>
+              <div class='caroCapLeft'>
                 <a href="/raze">
                   <h1>RAZE</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/neon">
                   <h1>NEON</h1>
                 </a>

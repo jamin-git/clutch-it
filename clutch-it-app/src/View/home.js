@@ -15,14 +15,14 @@ const home = () => {
         <img class="home-img" src={homImg} alt="Home" />
       </div>
       <div class='learn-container'>
-            <p class='learn-item'> LEARN ABOUT VALORANT HERE!</p>
+          <p class='learn-item'> LEARN ABOUT VALORANT HERE!</p> 
       </div>
 
       {/* updates */}
-      <div class="container">
+      {/* <div class="container">
         <h2>UPDATES</h2>
         <div class="updates-box"></div>
-      </div>
+      </div> */}
 
       {/* trending clips */}
       <div class="container">

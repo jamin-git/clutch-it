@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
 }
 
 .about h1 {
@@ -33,14 +32,14 @@
 .about .container {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     width: 50vw;
-    padding-bottom: 2em;
+    padding: 5em;
+    margin-top: 1em;
     height: min-content;
-
-    top: -40em;
 }
 
 .about-us {
@@ -58,7 +57,6 @@
 .members-container {
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -96,7 +94,7 @@
 }
 
 .socials a:hover {
-    color: #FFF9C8;
+    color: #FF2E86;
 }
 
 .libraries-box {
@@ -110,12 +108,19 @@
     border-radius: 20px;
     color: white;
     text-shadow: none;
-
-    top: -30em;
 }
+
+.about .img-container {
+    top: 4em;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
 .aboutImg{
-    position: relative;
-    top: -1em;
     width: 100vw;
     height: auto;
-  }
+    
+    z-index: 10;
+}
