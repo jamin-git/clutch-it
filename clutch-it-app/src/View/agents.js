@@ -15,7 +15,7 @@ const agents = () => {
         <div class="img-container">
             <div class="link-container">
               <h1>
-                <a class="link" href="/">
+                <a class="link" href="/controller">
                   CONTROLLER
                 </a>
               </h1>
@@ -39,7 +39,7 @@ const agents = () => {
         <div class="img-container">
             <div class="link-container">
               <h1>
-                <a class="link" href="/">
+                <a class="link" href="/initiator">
                   INITIATOR
                 </a>
               </h1>
@@ -50,7 +50,7 @@ const agents = () => {
         <div class="img-container">
             <div class="link-container">
               <h1>
-                <a class="link" href="/">
+                <a class="link" href="/sentinel">
                   SENTINEL
                 </a>
               </h1>

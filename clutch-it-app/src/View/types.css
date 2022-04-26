@@ -60,13 +60,33 @@
     text-shadow: -4px 2px 30px #FFF9C8;
   }
 
+  .title2 {
+    position: relative;
+    top: -7em;
+
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFF9C8;
+    text-shadow: -4px 2px 30px #FFF9C8;
+  }
+
+
+
   .bgnd {
     position: relative;
     width: 100vw;
     height: auto;
     top: -22em;
   }
+  
 
+  .caroCap {
+    left: 15em;
+    top: -10em;
+  }
 
 
   

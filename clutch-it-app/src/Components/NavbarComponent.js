@@ -14,7 +14,7 @@ const NavbarComponent = () => {
       <Navbar variant="dark" expand="md">
         <Container>
           <Navbar.Brand href="/">
-            <h1>CLUTCH.IT</h1>
+            <h1>~CLUTCH.IT~</h1>
           </Navbar.Brand>
           
           <Button onClick={handleShow} size="md" variant="btn-outline-dark" placement="end">
@@ -41,7 +41,7 @@ const NavbarComponent = () => {
                 <Nav.Link><h2>AGENTS</h2></Nav.Link>
               </LinkContainer>
 
-                  <LinkContainer to="/">
+                  <LinkContainer to="/controller">
                     <Nav.Link><h3>CONTROLLER</h3></Nav.Link>
                   </LinkContainer>
 
@@ -49,11 +49,11 @@ const NavbarComponent = () => {
                     <Nav.Link><h3>DUELIST</h3></Nav.Link>
                   </LinkContainer>
 
-                  <LinkContainer to="/">
+                  <LinkContainer to="/initiator">
                     <Nav.Link><h3>INITIATOR</h3></Nav.Link>
                   </LinkContainer>
 
-                  <LinkContainer to="/">
+                  <LinkContainer to="/sentinel">
                     <Nav.Link><h3>SENTINEL</h3></Nav.Link>
                   </LinkContainer>
 
@@ -64,15 +64,7 @@ const NavbarComponent = () => {
               <LinkContainer to="/about">
                 <Nav.Link><h2>ABOUT</h2></Nav.Link>
               </LinkContainer>
-
-              <LinkContainer to="/contact">
-                <Nav.Link><h2>CONTACT</h2></Nav.Link>
-              </LinkContainer>
-
-              {/*<LinkContainer to="/highlights">
-                <Nav.Link className="nav-link">Highlights</Nav.Link>
-              </LinkContainer>*/}
-
+              
               </Nav>
             </OffcanvasBody>
           </Offcanvas>

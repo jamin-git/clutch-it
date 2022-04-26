@@ -2,7 +2,7 @@
     padding: 1em;
     position: absolute;
     width: 100vw;
-    z-index: 9999;
+    z-index: 3;
 }
 
 .mini-nav .nav-link {

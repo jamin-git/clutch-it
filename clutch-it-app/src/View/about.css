@@ -18,6 +18,7 @@
     letter-spacing: 0.1em;
     color: #FFF9C8;
     text-shadow: -4px 2px 30px #FFF9C8;
+
 }
 
 .about h2 {
@@ -38,6 +39,8 @@
     width: 50vw;
     padding-bottom: 2em;
     height: min-content;
+
+    top: -40em;
 }
 
 .about-us {
@@ -107,4 +110,12 @@
     border-radius: 20px;
     color: white;
     text-shadow: none;
+
+    top: -30em;
 }
+.aboutImg{
+    position: relative;
+    top: -1em;
+    width: 100vw;
+    height: auto;
+  }
