@@ -1,5 +1,5 @@
 import React from "react";
-import Jett from '../Resources/agent-images/jett.png';
+import Jett from '../Resources/agent-images/jett.svg';
 import './agent.css';
 import MiniNav from "../Components/MiniNav";
 
