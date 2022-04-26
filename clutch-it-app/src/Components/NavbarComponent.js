@@ -64,15 +64,7 @@ const NavbarComponent = () => {
               <LinkContainer to="/about">
                 <Nav.Link><h2>ABOUT</h2></Nav.Link>
               </LinkContainer>
-
-              <LinkContainer to="/contact">
-                <Nav.Link><h2>CONTACT</h2></Nav.Link>
-              </LinkContainer>
-
-              {/*<LinkContainer to="/highlights">
-                <Nav.Link className="nav-link">Highlights</Nav.Link>
-              </LinkContainer>*/}
-
+              
               </Nav>
             </OffcanvasBody>
           </Offcanvas>

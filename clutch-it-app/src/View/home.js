@@ -1,9 +1,12 @@
 import React from "react";
-import HomeImage from "../Resources/HomeImage.svg";
 import Agents from "../Resources/AGENTS.svg";
 import Maps from "../Resources/MAPS.svg";
 import homImg from "../Resources/HomeImg.png";
 import "./home.css";
+
+//carousel components
+import VideoComponent from '../Components/VideoComponent'
+import { Carousel } from "react-bootstrap";
 
 const home = () => {
   return (
@@ -21,18 +24,38 @@ const home = () => {
       {/* trending clips */}
       <div class="container">
         <h2>TRENDING CLIPS</h2>
-        <div class="trending-clips">
-          <div class="trending-box"></div>
-          <div class="trending-box"></div>
-        </div>
+        <Carousel>
+          <Carousel.Item>
+            <div className="trending-clips">
+              <VideoComponent videoId='wzlt37gGpeQ'></VideoComponent>
+              <VideoComponent videoId='eDFkmdRs3FQ'></VideoComponent>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="trending-clips">
+              <VideoComponent videoId='UMzKD73cs3c'></VideoComponent>
+              <VideoComponent videoId='sPo8MF88kKE'></VideoComponent>
+            </div>
+          </Carousel.Item>
+      </Carousel>
       </div>
 
       <div class="container">
         <h2>CLUTCHED IT</h2>
-        <div class="clutch-clips">
-          <div class="clutch-box"></div>
-          <div class="clutch-box"></div>
-        </div>
+        <Carousel>
+          <Carousel.Item>
+            <div className="clutch-clips">
+              <VideoComponent videoId='M-PlPu4LD9o'></VideoComponent>
+              <VideoComponent videoId='NBfbn0GsHUU'></VideoComponent>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="clutch-clips">
+              <VideoComponent videoId='913KIj5CoJ8'></VideoComponent>
+              <VideoComponent videoId='CgT59LOvzh4'></VideoComponent>
+            </div>
+          </Carousel.Item>
+      </Carousel>
       </div>
 
       <div class="references">
