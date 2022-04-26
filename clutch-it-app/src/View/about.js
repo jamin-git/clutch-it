@@ -24,24 +24,23 @@ function about() {
           <div class="members-item">
             <h2> Jacob </h2>
             <div class="socials">
-              <a href="https://www.github.com/jamin-git" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/jamin-git" target="_blank" rel="noopener noreferrer"> Github </a>
+              <a href="https://www.linkedin.com/in/jacobsamin/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
 
           <div class="members-item">
             <h2> Michelle </h2>
             <div class="socials">
-              <a href="https://www.github.com/michelle692" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/michelle692" target="_blank" rel="noopener noreferrer"> Github </a>
             </div>
           </div>
 
           <div class="members-item">
             <h2> Sushant </h2>
             <div class="socials">
-              <a href="https://www.github.com/SushGuha" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/SushGuha" target="_blank" rel="noopener noreferrer"> Github </a>
+              <a href="https://www.linkedin.com/in/sushantguha/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
         </div>
@@ -50,24 +49,23 @@ function about() {
           <div class="members-item">
             <h2> Andy </h2>
             <div class="socials">
-              <a href="https://www.github.com/andyng2002" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/andyng2002" target="_blank" rel="noopener noreferrer"> Github </a>
+              <a href="https://www.linkedin.com/in/andynguyen--/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
 
           <div class="members-item">
             <h2> Chloe </h2>
             <div class="socials">
-              <a href="https://www.github.com/chlo-ng" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/chlo-ng" target="_blank" rel="noopener noreferrer"> Github </a>
+              <a href="https://www.linkedin.com/in/chlo-ng/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             </div>
           </div>
 
           <div class="members-item">
             <h2> Mina </h2>
             <div class="socials">
-              <a href="https://www.github.com/kmina9" target="blank"> Github </a>
-              <a href="" target="blank"> LinkedIn </a>
+              <a href="https://www.github.com/kmina9" target="_blank" rel="noopener noreferrer"> Github </a>
             </div>
           </div>
         </div>

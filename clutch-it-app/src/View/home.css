@@ -17,7 +17,7 @@
 
 .home .container {
   position: relative;
-  padding: 2em;
+  padding: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,11 +66,10 @@
 .trending-clips {
   position: relative;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
 }
 
-.trending-box {
+/* .trending-box {
   width: 40vw;
   height: 45vh;
   margin-left: 2em;
@@ -79,12 +78,18 @@
   box-sizing: border-box;
   filter: drop-shadow(7px -7px 10px #ff2e86) drop-shadow(-7px 7px 12px #fff9c8);
   border-radius: 45px;
+} */
+
+.home .carousel {
+  position: relative;
+  top: 0;
+  height: 50vh;
+  width: 100vw;
 }
 
 .clutch-clips {
   position: relative;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
 }
 
@@ -105,12 +110,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2em;
 }
 
-.img-container {
+.home .img-container {
   position: relative;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   align-items: center;
   justify-content: center;
 }

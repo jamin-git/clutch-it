@@ -1,14 +1,20 @@
 .mini-nav {
     padding: 1em;
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
 }
 
-.nav-link {
+.mini-nav .nav-link {
     text-decoration: none;
     color: #fff9c8;
 }
 
 .mini-nav .navbar {
+    position: relative;
     display: flex;
+    justify-content: space-evenly;
+
     list-style: none;
     padding-left: 5em;
     padding-right: 5em;
