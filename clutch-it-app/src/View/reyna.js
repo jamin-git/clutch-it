@@ -1,5 +1,5 @@
 import React from "react";
-import Reyna from '../Resources/agent-images/reyna.png';
+import Reyna from '../Resources/agent-images/reyna.svg';
 import './agent.css';
 import MiniNav from "../Components/MiniNav";
 
