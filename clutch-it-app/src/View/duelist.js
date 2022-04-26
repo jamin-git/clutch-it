@@ -29,8 +29,8 @@ import { Row, Col, Carousel } from "react-bootstrap";
           <img class='bgnd' src={DuelistBgnd}/>
           <Carousel>
             <Carousel.Item>
-              <img src={ReynaDuel}/>
-              <img src={JettDuel}/>
+              <img class='padRight' src={ReynaDuel}/>
+              <img class='padLeft padTop' src={JettDuel}/>
               <div class='caroCap'>
                 <a href="/reyna">
                   <h1>REYNA</h1>
@@ -43,8 +43,8 @@ import { Row, Col, Carousel } from "react-bootstrap";
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={YoruDuel}/>
-              <img src={PhoenixDuel}/>
+              <img class='padRight padTop' src={YoruDuel}/>
+              <img class='padLeft padTop' src={PhoenixDuel}/>
               <div class='caroCap'>
                 <a href="/yoru">
                   <h1>YORU</h1>
@@ -57,8 +57,8 @@ import { Row, Col, Carousel } from "react-bootstrap";
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={RazeDuel}/>
-              <img src={NeonDuel}/>
+              <img class='padRight padTop' src={RazeDuel}/>
+              <img class='padLeft padTop' src={NeonDuel}/>
               <div class='caroCap'>
                 <a href="/raze">
                   <h1>RAZE</h1>

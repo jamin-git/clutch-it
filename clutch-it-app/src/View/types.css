@@ -82,10 +82,32 @@
     top: -22em;
   }
   
+  .padRight {
+    padding-right: 3em;
+  }
+
+  .padLeft {
+    padding-left: 3em;
+  }
+
+  .padTop {
+    padding-top: 8em;
+  }
+
+  .caroItem {
+    padding-bottom: 3em;
+  }
+  .caroItem2 {
+    padding-bottom: 30em;
+  }
 
   .caroCap {
-    left: 15em;
-    top: -10em;
+    top: -100em;
+  }
+
+  .caroItemsCap {
+    margin-left: 15em;
+    margin-top: 100em;
   }
 
 
