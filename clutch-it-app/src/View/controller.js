@@ -25,18 +25,17 @@ import { Carousel } from "react-bootstrap";
           <div>
             <p class='title2'>MEET THE AGENTS</p>
         </div>
-        <div>
-          <img class='bgnd' src={ControllerBgnd}/>
-          <Carousel class='caroCap'>
-            <Carousel.Item class='caroItemsCap'>
+        <div class='carousel-bg2' style={{marginTop: '-20em'}}>
+          <Carousel>
+            <Carousel.Item>
               <img src={AstraCon}/>
               <img src={BrimCon}/>
-              <div>
+              <div class='caroCapLeft'>
                 <a href="/astra">
                   <h1>ASTRA</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/brimstone">
                   <h1>BRIMSTONE</h1>
                 </a>
@@ -45,12 +44,12 @@ import { Carousel } from "react-bootstrap";
             <Carousel.Item>
               <img class='padRight' src={OmenCon}/>
               <img class='padLeft' src={ViperCon}/>
-              <div>
+              <div class='caroCapLeft'>
                 <a href="/omen">
                   <h1>OMEN</h1>
                 </a>
               </div>
-              <div class="carousel-caption">
+              <div class="caroCapRight">
                 <a href="/viper">
                   <h1>VIPER</h1>
                 </a>

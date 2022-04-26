@@ -19,10 +19,10 @@ const home = () => {
       </div>
 
       {/* updates */}
-      <div class="container">
+      {/* <div class="container">
         <h2>UPDATES</h2>
         <div class="updates-box"></div>
-      </div>
+      </div> */}
 
       {/* trending clips */}
       <div class="container">
