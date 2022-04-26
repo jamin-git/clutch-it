@@ -18,29 +18,15 @@ import splitLayout from "../Resources/map images/splitLayout.jpg";
 import iceboxLayout from "../Resources/map images/havenLayout.jpg";
 import fractureLayout from "../Resources/map images/havenLayout.jpg";
 
-let arr = [
-  havenMap,
-  ascentMap,
-  iceboxMap,
-  bindMap,
-  breezeMap,
-  splitMap,
-  fractureMap,
+let mapsArray = [
+  { name: "Haven", map: havenMap, layout: havenLayout, number: 3 },
+  { name: "Ascent", map: ascentMap, layout: ascentLayout, number: 2 },
+  { name: "Icebox", map: iceboxMap, layout: iceboxLayout, number: 2 },
+  { name: "Bind", map: bindMap, layout: bindLayout, number: 2 },
+  { name: "Breeze", map: breezeMap, layout: breezeLayout, number: 2 },
+  { name: "Split", map: splitMap, layout: splitLayout, number: 2 },
+  { name: "Fracture", map: fractureMap, layout: fractureLayout, number: 2 },
 ];
-
-let arr2 = [
-  havenLayout,
-  ascentLayout,
-  iceboxLayout,
-  bindLayout,
-  breezeLayout,
-  splitLayout,
-  fractureLayout,
-];
-
-let name = ["Haven", "Ascent", "IceBox", "Bind", "Breeze", "Split", "Fracture"];
-
-let numSites = [3, 2, 2, 2, 2, 2, 2];
 
 let arrCounter = 0;
 
@@ -50,13 +36,13 @@ const maps = () => {
       className="maps"
       // style={{ minHeight: "100vh", minWidth: "100%" }}
     >
-      {arr.map((currMap, arrCounter) => (
+      {mapsArray.map((current) => (
         <MapElement
           key={arrCounter}
-          name={name[arrCounter]}
-          map={currMap}
-          numSite={numSites[arrCounter]}
-          layout={arr2[arrCounter]}
+          name={current.name}
+          map={current.map}
+          numSite={current.number}
+          layout={current.layout}
         />
       ))}
     </Container>

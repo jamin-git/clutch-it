@@ -8,13 +8,10 @@ const MapElement = ({ name, map, numSite, layout }) => {
       {/* Map-1 : Haven */}
       {/* Title Row */}
       <Row style={{ maxWidth: "50vh" }}>
-        <p className="title1" style={{ marginTop: "5px" }}>
-          {name}
-        </p>
+        <p className="title1">{name}</p>
       </Row>{" "}
       {/* Map Image Row */}
-      <p style={{ marginBottom: "-27%" }}>`</p>
-      <Row className="justify-content-center" style={{ marginBottom: "24%" }}>
+      <Row className="justify-content-center" style={{ marginBottom: "4%" }}>
         <Carousel
           className="Carousel"
           style={{
@@ -53,7 +50,7 @@ const MapElement = ({ name, map, numSite, layout }) => {
         </Carousel>
       </Row>
       {/* Info Box Row */}
-      <Row className="justify-content-center" style={{ marginTop: "1.2%" }}>
+      <Row className="justify-content-center" style={{ marginTop: "0.7%" }}>
         <div className="square" id="info-box">
           <p style={{ margin: "20%", fontSize: "0.8em" }}>{numSite} Sites</p>
         </div>
@@ -89,7 +86,7 @@ const MapElement = ({ name, map, numSite, layout }) => {
           <h1 className="title1" style={{ marginTop: "4%", marginLeft: "36%" }}>
             CLUTCHED
           </h1>
-          <div style={{ marginTop: "2%" }}>
+          <div style={{ marginTop: "2%", marginBottom: "16%" }}>
             <img
               className="square"
               id="video-frame"
