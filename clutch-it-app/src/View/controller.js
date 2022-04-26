@@ -27,11 +27,11 @@ import { Carousel } from "react-bootstrap";
         </div>
         <div>
           <img class='bgnd' src={ControllerBgnd}/>
-          <Carousel>
-            <Carousel.Item>
+          <Carousel class='caroCap'>
+            <Carousel.Item class='caroItemsCap'>
               <img src={AstraCon}/>
               <img src={BrimCon}/>
-              <div class='caroCap'>
+              <div>
                 <a href="/astra">
                   <h1>ASTRA</h1>
                 </a>
@@ -43,9 +43,9 @@ import { Carousel } from "react-bootstrap";
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={OmenCon}/>
-              <img src={ViperCon}/>
-              <div class='caroCap'>
+              <img class='padRight' src={OmenCon}/>
+              <img class='padLeft' src={ViperCon}/>
+              <div>
                 <a href="/omen">
                   <h1>OMEN</h1>
                 </a>

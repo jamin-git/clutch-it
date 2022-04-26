@@ -29,8 +29,8 @@ import { Carousel } from "react-bootstrap";
           <img class='bgnd' src={InitiatorBgnd}/>
           <Carousel>
             <Carousel.Item>
-              <img src={BreachInit}/>
-              <img src={KayoInit}/>
+              <img class='padRight' src={BreachInit}/>
+              <img class='padleft' src={KayoInit}/>
               <div class='caroCap'>
                 <a href="/breach">
                   <h1>BREACH</h1>
@@ -43,8 +43,8 @@ import { Carousel } from "react-bootstrap";
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img src={SkyeInit}/>
-              <img src={SovaInit}/>
+              <img class='padRight' src={SkyeInit}/>
+              <img class='padleft' src={SovaInit}/>
               <div class='caroCap'>
                 <a href="/skye">
                   <h1>SKYE</h1>
