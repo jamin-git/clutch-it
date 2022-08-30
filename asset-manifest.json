@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clutch-it/static/css/main.47c4a568.css",
-    "main.js": "/clutch-it/static/js/main.37bad891.js",
+    "main.js": "/clutch-it/static/js/main.3aff0c2f.js",
     "static/js/787.494e3a50.chunk.js": "/clutch-it/static/js/787.494e3a50.chunk.js",
     "static/media/neon.svg": "/clutch-it/static/media/neon.908eb64f4604c77228d1908064ba140d.svg",
     "static/media/breach.svg": "/clutch-it/static/media/breach.2eda16456d246aa47915dcba9a2f3143.svg",
@@ -73,11 +73,11 @@
     "static/media/duelbgnd.svg": "/clutch-it/static/media/duelbgnd.bfa093e4d4a4c4ac53fca6ebe554ad3b.svg",
     "index.html": "/clutch-it/index.html",
     "main.47c4a568.css.map": "/clutch-it/static/css/main.47c4a568.css.map",
-    "main.37bad891.js.map": "/clutch-it/static/js/main.37bad891.js.map",
+    "main.3aff0c2f.js.map": "/clutch-it/static/js/main.3aff0c2f.js.map",
     "787.494e3a50.chunk.js.map": "/clutch-it/static/js/787.494e3a50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47c4a568.css",
-    "static/js/main.37bad891.js"
+    "static/js/main.3aff0c2f.js"
   ]
 }
