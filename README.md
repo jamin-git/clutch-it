@@ -3,7 +3,7 @@
 <br>
 
 ## Synposis / Description
-Clutch.It is a website created by the Georgia Tech Web Development club in the Fall of 2021. Clutch.It's purpose is to provide resources for valorant players including but not limited to guides, lineups, tutorials, tips, tricks, and more. This project focused heavily on front-end implementation and design. The website was created using React.js.
+Clutch.It is a website created by the Georgia Tech Web Development club in the Spring of 2022. Clutch.It's purpose is to provide resources for valorant players including but not limited to guides, lineups, tutorials, tips, tricks, and more. This project focused heavily on front-end implementation and design. The website was created using React.js.
 
 <br>
 
