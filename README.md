@@ -8,8 +8,9 @@ Clutch.It is a website created by the Georgia Tech Web Development club in the S
 <br>
 
 ## Roles
-##### Developers: Michelle Lee, Chloe Ng, Sushant Guha, Andy Nguyen   <br>
 ##### Project Manager: Jacob Amin <br>
+##### Developers: Michelle Lee, Chloe Ng, Sushant Guha, Andy Nguyen   <br>
+
 
 <br>
 
